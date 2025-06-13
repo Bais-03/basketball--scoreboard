@@ -1,0 +1,54 @@
+body {
+    margin: 20px;
+    text-align: center;
+    background: #1B244A;
+   
+}
+
+h3 {
+    color: #EEEEEE;
+}
+
+
+.score {
+    text-align: center;
+    background-image: url("images/background.png");
+    background-size: cover;
+    font-size: 70px;
+    color: #F94F6D;
+    width: 120px;
+    height: 90px;
+    margin: 20px;
+    padding-top: 20px  ;
+    font-family: DIGITALDREAM;
+}
+
+@font-face {
+    src: url("DIGITALDREAM.ttf");
+    font-family:DIGITALDREAM;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background: none;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 2px;
+    padding: 6px 10px 6px 8px;
+    margin: 2px;
+}
+
+#refresh-score {
+     background-color: red;
+        color: white;
+        padding: 5px 10px;
+        border: 2px solid white;
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 20px;
+        display: inline-block;
+}
